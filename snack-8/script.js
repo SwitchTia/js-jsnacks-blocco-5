@@ -23,10 +23,14 @@ const students = [
 
 const findStudentClass = students.find(function (element, index) {
   const {name, clas} = element;
-  if(element.name === "Marco Lanci"){
-    return element.clas;
-  }
+  return element.name === "Marco Lanci"
 });
 console.log(findStudentClass);
+
+
+if(findStudentClass){
+    console.log(findStudentClass.clas);
+}
+
 
 // Risultato: '3C'
