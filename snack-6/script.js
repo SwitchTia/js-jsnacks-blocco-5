@@ -27,3 +27,11 @@ const newArray = zucchine.filter(function(element, index){
 })
 console.log(newArray);
 console.log(restArray);
+
+
+
+// const restArray1 = []; 
+
+// const newArray1 = zucchine.filter((element, index) => element.length >= 15 ? element : restArray.push(element)); //need help
+// console.log(newArray1);
+// console.log(restArray1);

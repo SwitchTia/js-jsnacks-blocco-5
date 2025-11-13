@@ -6,4 +6,10 @@ const newArray = numbers.map(function(number, index){
     return number + 1;
 })
 console.log(newArray);
+
+
+const newArray1 = numbers.map((number, index) => number + 1);
+
+console.log(newArray);
+
 // Risultato: [3, 9, 5, 8, 3, 88]

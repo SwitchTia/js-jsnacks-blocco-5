@@ -12,4 +12,11 @@ const namesMap = posts.map(function(element, index){
   return `${author}`;
 })
 console.log(namesMap);
+
+
+const namesMap1 = posts.map(({author}, index) => `${author}`);
+
+console.log(namesMap1);
+
+
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']

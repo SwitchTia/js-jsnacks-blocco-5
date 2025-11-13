@@ -21,15 +21,20 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 
-const findStudentClass = students.find(function (element, index) {
-  const {name, clas} = element;
+
+
+const findStudent = students.find(function (element, index) {
   return element.name === "Marco Lanci"
 });
-console.log(findStudentClass);
+console.log(findStudent1);
 
 
-if(findStudentClass){
-    console.log(findStudentClass.clas);
+const findStudent1 = students.find((element, index) => element.name === "Marco Lanci");
+console.log(findStudent);
+
+
+if(findStudent){
+    console.log(findStudent.clas);
 }
 
 

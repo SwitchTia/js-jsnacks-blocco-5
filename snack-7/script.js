@@ -21,19 +21,19 @@ const students = [
 
 // Recupera i dati dello studente con id 2
 
-const findStudent = students.find(({id}, index) => id === 2);
-
-console.log(findStudent);
-
-
-
-
-const findStudent1 = students.find(function(element,index){
+const findStudent = students.find(function(element,index){
   const {id} = element;
   if(id === 2){
     return element;
   }
 })
+console.log(findStudent);
+
+
+
+
+const findStudent1 = students.find(({id}, index) => id === 2);
 
 console.log(findStudent1);
+
 // Risultato: { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }

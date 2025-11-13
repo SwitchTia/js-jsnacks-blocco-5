@@ -6,4 +6,10 @@ const newArray = nums.filter(function(number, index){
     return number % 2 === 0;
 });
 console.log(newArray);
+
+
+const newArray1 = nums.filter((number, index) => number % 2 === 0);
+
+console.log(newArray1);
+
 // Risultato: [2, 8, 4, 12]
